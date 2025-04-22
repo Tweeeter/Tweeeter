@@ -16,24 +16,24 @@ Here are some ideas to get you started:
 -->
 
 
-Project 1. Library Management System:
+Project 2. Student Management System:
 
 Create the following schema, enter at least 5 records in each table and answer the queries given below.
 
-LibraryBooks (Accession number, Title, Author, Department, Purchase Date, Price)
+Student (College roll number, Name of student, Date of birth, Address, Marks(rounded off to whole number) in percentage at 10+2, Phone number)
 
-Issued Books (Accession number, Borrower)
+Paper Details (Paper code, Name of the Paper)
+
+Academic_details (College roll number, Paper code, Attendance, Marks in home examination)
 
 a) Identify primary and foreign keys. Create the tables and insert at least 5 records in each table.
 
-b) Delete the record of book titled "Database System Concepts".
+Page 33 of 36
 
-c) Change the Department of the book titled "Discrete Mathematics" to "CSE".
+b) Design a query that will return the records (from the second table) along with the name of student from the first table, related to students who have more than 75% attendance and more than 60% marks in paper 2.
 
-d) List all books that belong to "CSE" department.
+c) List all students who live in "Lucknow" and have marks greater than 60 in paper 1.
 
-e) List all books that belong to "CSE" department and are written by author "Navathe".
+d) Find the total attendance and total marks obtained by each student.
 
-1) List all computer (Department="CSE") that have been issued.
-
-g) List all books which have a price less than 500 or purchased between "01/01/2015" and "01/01/2019"
+e) List the name of student who has got the highest marks in paper 2.
